@@ -65,6 +65,13 @@ body {
 }
 
 #Header img {
+    /* width: 200%; */
+    max-width: calc(100%-400px);
+    height: auto;
+    margin-top: 20px;
+}
+
+.header_imag {
     /* width: 100%; */
     /* border: 2px red solid; */
     border-radius: 2%;
@@ -72,13 +79,13 @@ body {
     /* max-width: calc(100%-900px); */
     height: auto;
     margin-top: 20px;
-    width: 40%;
+    /* width: 40%; */
 }
 
 @media only screen and (max-width: 768px) {
 
     /* Styles specific to mobile devices */
-    #Header img {
+    .header_imag {
         border-radius: 2%;
         box-shadow: 10px 10px 10px rgba(105, 9, 230, 0.3);
         /* max-width: calc(100%-900px); */
