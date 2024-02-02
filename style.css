@@ -1,0 +1,177 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Navigation bar styles */
+#naviationbar {
+    background-color: #e8830e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+#naviationbar img {
+    width: 80px;
+    height: auto;
+}
+
+#naviationbar ul {
+    list-style: square;
+    display: flex;
+}
+
+#naviationbar li {
+    margin: 0 15px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    #naviationbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #naviationbar ul {
+        margin-top: 10px;
+    }
+
+    #naviationbar img {
+        order: -1;
+        /* Move the logo to the top on smaller screens */
+        margin-bottom: 10px;
+        /* Add space between logo and navigation on smaller screens */
+    }
+}
+
+#Header {
+    text-align: center;
+    padding: 50px;
+    background-color: hsla(280, 12%, 75%, 0.631);
+}
+
+#Header img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 20px;
+}
+
+#Products {
+    padding: 50px;
+}
+
+#Products h2,
+#Products h3,
+#Products p {
+    text-align: center;
+}
+
+#Products div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#Products div div {
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+#Service {
+    text-align: center;
+    padding: 50px;
+    background-color: hsla(191, 57%, 74%, 0.631);
+}
+
+#Service img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+
+
+
+#Whyus {
+    padding: 50px;
+    background-color: #d3cacaea;
+    display: flex;
+    justify-content: space-around;
+}
+
+#Whyus div {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+}
+
+#Whyus img {
+    width: 100%;
+    height: auto;
+}
+
+#contacts {
+    padding: 50px;
+    text-align: center;
+}
+
+#contacts img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 20px;
+}
+
+#footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#footer div {
+    display: flex;
+    justify-content: center;
+}
+
+#footer img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    #naviationbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #naviationbar ul {
+        margin-top: 10px;
+    }
+}
