@@ -134,6 +134,28 @@ body {
 
 
 
+#spareparts {
+    padding: 50px;
+}
+
+#spareparts h2,
+#spareparts h3,
+#spareparts p {
+    text-align: center;
+}
+
+#spareparts div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#spareparts div div {
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
 
 
 #Whyus {
@@ -267,28 +289,6 @@ body {
     background-color: hsla(280, 12%, 75%, 0.631);
 }
 
-
-#Products {
-    padding: 50px;
-}
-
-#Products h2,
-#Products h3,
-#Products p {
-    text-align: center;
-}
-
-#Products div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-#Products div div {
-    width: 200px;
-    margin: 20px;
-    text-align: center;
-}
 
 
 #Service {
