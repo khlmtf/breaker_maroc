@@ -1,7 +1,7 @@
 import os
 
 # Directory containing the images
-directory = "/home/khalil/Documents/html_projects/breaker_maroc_proj_test/imgs_spares"
+directory = "./"
 
 # List files in the directory
 files = os.listdir(directory)
